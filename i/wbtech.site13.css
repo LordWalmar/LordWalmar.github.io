@@ -173,13 +173,8 @@ margin-top: 1px;
 }
 
 .customfile-upload:hover,.input-submit:hover {
-  background: #787B8C;
+  background: #4b43ff;
   box-shadow: 0 0 2px rgba(0,0,0,.2);
-  background: -moz-linear-gradient(top, #4FD7FC 0%, #5299FC 36%, #4A8EED 100%);
-  background: -webkit-linear-gradient(top, #4FD7FC 0%, #5299FC 36%, #4A8EED 100%);
-  background: -o-linear-gradient(top, #4FD7FC 0%, #5299FC 36%, #4A8EED 100%);
-  background: -ms-linear-gradient(top, #4FD7FC 0%, #5299FC 36%, #4A8EED 100%);
-  background: linear-gradient(top, #4FD7FC 0%, #5299FC 36%, #4A8EED 100%);
 }
 .customfile-upload:active, .input-submit:active{
     background: #787B8C;
@@ -206,6 +201,7 @@ margin-top: 1px;
 }
 @media only screen and (max-width:520px) {
     .l-row {margin-left:0;}
+    .l-col-1,
     .l-col-2,
     .l-col-3,
     .l-col-4 {width:100% !important;margin-left:0 !important;margin-bottom:1em !important;}
