@@ -135,12 +135,12 @@
 <form action="/site/sendrequest/" enctype="multipart/form-data" method="post" class="request-content request-content__active">
 <ul class="l-row">
     <li class="l-col-2">
-        <h3>Please enter your contacts</h3>
+        <h3>Please, enter your contacts</h3>
         <ul class="l-row">
             <li class="l-col-2">
                 <input type="text" class="input-text" name="contacts[username]" placeholder="Your Name">
             <li class="l-col-2">
-                <input type="text" class="input-text" name="contacts[email]" placeholder="Your Email">
+                <input type="text" class="input-text" name="contacts[email]" placeholder="Your email">
         </ul>
         <ul class="l-row">
             <li class="l-col-2">
@@ -194,7 +194,7 @@
         </ul>
     <li class="l-col-2">
         <h3>Preferred answer form</h3>
-        <ul class="l-row">
+        <ul class="l-row" id="l-row-right">
             <li class="l-col-2">
                 <label for="item1" class="input-label"><input type="radio" class="input-radio" id="item1" name="answer[f_answer]" value="email">Email</label>
                 <label for="item2" class="input-label"><input type="radio" class="input-radio" id="item2" name="answer[f_answer]" value="call" checked>Call</label>
@@ -202,29 +202,29 @@
                 <select class="input-select" name="answer[preferred_time]">
                     <option value="default">Set preferred time</option>
                     <option value="0">0 - 1</option>
-					<option value="1">1 - 2</option>
-					<option value="2">2 - 3</option>
-					<option value="3">3 - 4</option>
-					<option value="4">4 - 5</option>
-					<option value="5">5 - 6</option>
-					<option value="6">6 - 7</option>
-					<option value="7">7 - 8</option>
-					<option value="8">8 - 9</option>
-					<option value="9">9 - 10</option>
-					<option value="10">10 - 11</option>
-					<option value="11">11 - 12</option>
-					<option value="12">12 - 13</option>
-					<option value="13">13 - 14</option>
-					<option value="14">14 - 15</option>
-					<option value="15">15 - 16</option>
-					<option value="16">16 - 17</option>
-					<option value="17">17 - 18</option>
-					<option value="18">18 - 19</option>
-					<option value="19">19 - 20</option>
-					<option value="20">20 - 21</option>
-					<option value="21">21 - 22</option>
-					<option value="22">22 - 23</option>
-					<option value="23">23 - 24</option>
+                    <option value="1">1 - 2</option>
+                    <option value="2">2 - 3</option>
+                    <option value="3">3 - 4</option>
+                    <option value="4">4 - 5</option>
+                    <option value="5">5 - 6</option>
+                    <option value="6">6 - 7</option>
+                    <option value="7">7 - 8</option>
+                    <option value="8">8 - 9</option>
+                    <option value="9">9 - 10</option>
+                    <option value="10">10 - 11</option>
+                    <option value="11">11 - 12</option>
+                    <option value="12">12 - 13</option>
+                    <option value="13">13 - 14</option>
+                    <option value="14">14 - 15</option>
+                    <option value="15">15 - 16</option>
+                    <option value="16">16 - 17</option>
+                    <option value="17">17 - 18</option>
+                    <option value="18">18 - 19</option>
+                    <option value="19">19 - 20</option>
+                    <option value="20">20 - 21</option>
+                    <option value="21">21 - 22</option>
+                    <option value="22">22 - 23</option>
+                    <option value="23">23 - 24</option>
                 </select>
             <li class="l-col-1">
                 <h3><label for="info" class="input-label">Information</label></h3>
@@ -238,8 +238,8 @@
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
-                <h3><label for="core" class="input-label">Core</label></h3>
-                <textarea id="core" name="project[core]"  class="input-textarea" cols="30" rows="5" placeholder="Tell us about your business or startup"></textarea>
+                <h3><label for="core" class="input-label input-label-h3">Project core</label></h3>
+                <textarea id="core" name="project[core]"  class="input-textarea" cols="30" rows="3" placeholder="Tell us about your business or startup"></textarea>
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
@@ -252,8 +252,8 @@
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
-                <h3><label for="goals">Project goals</label></h3>
-                <textarea id="goals" name="project[goals]" class="input-textarea" cols="30" rows="5" placeholder="What projects do you want to achieve hiring us?"></textarea>
+                <h3><label for="goals" class="input-label-h3">Project goals</label></h3>
+                <textarea id="goals" name="project[goals]" class="input-textarea" cols="30" rows="3" placeholder="What projects do you want to achieve hiring us?"></textarea>
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
@@ -262,7 +262,7 @@
                 <label for="service2" class="input-label"><input type="checkbox" class="input-checkbox" id="service2" name="service[development]"> Development</label>
                 <label for="service3" class="input-label"><input type="checkbox" class="input-checkbox" id="service3" name="service[branding]"> Branding</label>
         </ul>
-        <ul class="l-row">
+        <ul class="l-row" id="l-row-center">
             <li class="l-col-2">
                 <h3><label for="deadline" class="input-label">Deadlines</label></h3>
                 <input type="text" name="project[deadline]" class="input-text" id="deadline" placeholder="What deadlines have you got?">
@@ -289,18 +289,18 @@
     <div class="l-restrictor">
     <div class="footer-wrap" itemscope itemtype="http://schema.org/LocalBusiness">
     <ul class="footer-row">
-		<li class="footer-cell footer-row_phone">
-			<a itemprop="telephone">+1 (323) 455-4529</a>
-		<li class="footer-cell footer-row_email">
-			<a itemprop="email" href="mailto:ask@wbtech.pro">Ask@wbtech.pro</a>
-		<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="footer-cell footer-row_address">
-			<strong class="footer-address_city" itemprop="addressLocality">Moscow</strong>
-			<span itemprop="streetAddress">Bolshaya Novodmitrovskaya ulitsa, 36 building 12</span>
-		<li class="footer-cell footer-row_social">
-			<ul>
-			    <li><a href="https://www.facebook.com/wbtechpro">Facebook</a>
-			    <li><a href="https://twitter.com/wbtech_live">Twitter</a>
-			</ul>
+        <li class="footer-cell footer-row_phone">
+            <a itemprop="telephone">+1 (323) 455-4529</a>
+        <li class="footer-cell footer-row_email">
+            <a itemprop="email" href="mailto:ask@wbtech.pro">Ask@wbtech.pro</a>
+        <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="footer-cell footer-row_address">
+            <strong class="footer-address_city" itemprop="addressLocality">Moscow</strong>
+            <span itemprop="streetAddress">Bolshaya Novodmitrovskaya ulitsa, 36 building 12</span>
+        <li class="footer-cell footer-row_social">
+            <ul>
+                <li><a href="https://www.facebook.com/wbtechpro">Facebook</a>
+                <li><a href="https://twitter.com/wbtech_live">Twitter</a>
+            </ul>
     </ul>
     <ul class="footer-row">
         <li itemprop="description" class="l-col-1 footer-ask">If you have questions, concerns or want to request a quote, please contact us and we’ll be happy to assist you.
