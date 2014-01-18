@@ -66,7 +66,7 @@ p + .list-dash {margin-top:-25px;}
 .input-select {background:#fff;border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transition:color 200ms;-moz-transition:color 200ms;-o-transition:color 200ms;transition:color 200ms;-webkit-box-shadow:0 0 0 1px #d4d4d4, inset 0 1px 0 0 #eaeaea;-moz-box-shadow:0 0 0 1px #d4d4d4, inset 0 1px 0 0 #eaeaea;box-shadow:0 0 0 1px #d4d4d4, inset 0 1px 0 0 #eaeaea;}
 .input-text {height:32px;line-height:32px;width:18em;padding:0 .5em;margin:0;}
 .input-textarea {display:block;line-height:32px;padding:0 .5em;margin:0;resize:vertical;}
-.input-submit {display:inline-block;position:relative;min-width:8em;padding:1px 1.16em 0;margin:0;font-size:.8em;height:2.75em;line-height:2.75em;letter-spacing:1px;color:#fff;background:#5299fc;border:none;text-transform:uppercase;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-appearance:none;}
+.input-submit {display:inline-block;position:relative;min-width:8em;padding:1px 1.16em 0;margin:0;cursor:pointer;font-size:.8em;height:2.75em;line-height:2.75em;letter-spacing:1px;color:#fff;background:#5299fc;border:none;text-transform:uppercase;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-appearance:none;}
 a.input-submit:hover {border-bottom:none;}
 .wbt-validation-error {border-bottom-color:#fe004c;background-color:#ffcddc;}
 
