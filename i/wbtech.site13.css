@@ -205,6 +205,7 @@ margin-top: 1px;
     .l-col-2,
     .l-col-3,
     .l-col-4 {width:100% !important;margin-left:0 !important;margin-bottom:1em !important;}
+    .l-row .l-col-2:first-child .l-row{ margin-bottom:0 !important; }
 }
 @media only screen and (max-width:320px) {
 }
@@ -663,7 +664,7 @@ margin-top: 1px;
     a.pseudo {border-color:transparent;}
     a[href]:after {content:" (" attr(href) ")";}
     .footer a[href]:after {content:"";}
-    .footer a {text-decoration:none;}
+    .footer a {text-decoration:none;
     abbr[title]:after {content:" (" attr(title) ")";}
     a[href^="javascript:"]:after, a[href^="#"]:after {content:"";}
     pre, blockquote {border:1px solid #999999;page-break-inside:avoid;}
