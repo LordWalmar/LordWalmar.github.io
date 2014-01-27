@@ -22,12 +22,9 @@ $(function(){
 
     $(".input-checkbox, .input-radio, .input-select").wbtFormStyler();
 
-     $('.l-col-2 :radio').click(function(){
-            var a = $(this).val();
-            if(a == 'call'){
-                $('#selectShow').show();
-            }else
-                $('#selectShow').hide();
+       $container = $(".preferred-answer");
+        $container.find($(".input-radio")).on("click", function(){
+            $container.find($('.wbt-input-select')).toggleClass("preferred-answer__email");
         });
 
     // Detect mobile
